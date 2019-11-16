@@ -1,5 +1,5 @@
 import React from 'react';
-import { View,Button,TextInput,ToastAndroid} from 'react-native';
+import { View, Button, TextInput, ToastAndroid} from 'react-native';
 
 export default class HelloScreen extends React.Component {
     state = { value: "Name" };
@@ -14,7 +14,7 @@ export default class HelloScreen extends React.Component {
                 value={this.state.value}
                 />
                 <Button
-                title="Hello"
+                title="He"
                 onPress={() => ToastAndroid.show('Hello'  + this.state.value, ToastAndroid.SHORT)}
                 />
         </View>
