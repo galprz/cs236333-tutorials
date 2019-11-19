@@ -4,6 +4,12 @@ const app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
+/**
+ * {
+ *   "name": "Israel israeli"
+ * }
+ */
+
 app.post('/hello', (req, res) => {
     res.send("Hello " +  req.body.name)
 });
