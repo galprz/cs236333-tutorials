@@ -1,0 +1,18 @@
+ui:
+debug angular
+block page
+Rest client
+auth client
+device client
+add device > backend > iothub
+list to all existing device to user
+backend:
+login + appripriate errors
+firebase firewall
+dont let user to list devices his is not belong
+cloud:
+add to device
+list to all device
+
+
+
