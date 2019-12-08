@@ -1,6 +1,5 @@
 const iothub = require("azure-iothub");
-const connectionString =
-  "HostName=technion-demo.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=j2eZc3bHS2pKc8NCbxGs9JS/en8DInNkg9fkrwqiGb8=";
+const connectionString = "";
 
 module.exports = function(context, IoTHubMessages) {
   context.log(`Got new message:${JSON.stringify(IoTHubMessages)}`);

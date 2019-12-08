@@ -1,6 +1,5 @@
 const IoTDeviceClient = require("azure-iot-device").Client;
-const connectionString =
-  "HostName=technion-demo.azure-devices.net;DeviceId=temp_sensor;SharedAccessKey=RZ17Kv9bBpI2w4ylbXT/IcsUY3mnev94Elg/mv/3p+A=";
+const connectionString = "";
 const protocol = require("azure-iot-device-mqtt").Mqtt;
 const client = IoTDeviceClient.fromConnectionString(connectionString, protocol);
 const prompt = require("prompt");
